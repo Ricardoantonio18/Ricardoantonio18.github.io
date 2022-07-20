@@ -49,11 +49,12 @@
 }
 
 .social li a{
-    padding: 10px;
+    padding: 20px;
 }
 
-svg.feather{
-    fill: none;
+.social li a svg{
+    width: 30px;
+    height: 30px;
 }
 .main{
     padding-top: 80px;

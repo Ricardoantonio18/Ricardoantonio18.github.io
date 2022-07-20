@@ -1,0 +1,92 @@
+.card-shadow{
+    box-shadow: 0 4px 8px 0 black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.social{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color:whitesmoke;
+}
+
+.social ul{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.social ul::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #A8B2D1;
+}
+
+.social li:last-of-type{
+    margin-bottom: 20px;
+}
+
+.social a{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+}
+
+.social li a{
+    padding: 10px;
+}
+
+svg.feather{
+    fill: none;
+}
+.main{
+    padding-top: 80px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+.name{
+    margin-top: 10rem;
+}
+
+.name p{
+    max-width: 600px;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    color:gray;
+}
+
+
+h1{
+    font-size: large;
+    color: cyan;
+}
+
+h2, h3{
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+h3{
+    color: gray;
+}

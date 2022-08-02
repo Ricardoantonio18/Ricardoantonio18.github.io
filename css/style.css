@@ -1,0 +1,488 @@
+* {
+    color: whitesmoke;
+}
+
+.card-shadow {
+    box-shadow: 0px 4px 20px 0 black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.social {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: whitesmoke;
+}
+
+.social ul {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.social ul::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 140px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #A8B2D1;
+}
+
+.social li:last-of-type {
+    margin-bottom: 20px;
+}
+
+.social a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+}
+
+.social li a {
+    padding: 40px;
+}
+
+.social li a svg {
+    width: 30px;
+    height: 30px;
+}
+
+.social-footer {
+    display: none;
+}
+
+.social-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.mail {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: whitesmoke;
+}
+
+.mail2 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.mail a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+}
+
+.mail2::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 140px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #A8B2D1;
+}
+
+.hi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: cyan;
+}
+
+
+.name p {
+    max-width: 600px;
+    margin-left: 0.4rem;
+}
+
+.about {
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inner {
+    margin-top: 2rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.inner p {
+    max-width: 600px;
+}
+
+.about_img {
+    position: relative;
+    max-width: 250px;
+    max-height: 300px;
+}
+
+
+.wrapper {
+    box-shadow: 0 10px 30px -15px black;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: cyan;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.photo img {
+    position: relative;
+    border-radius: 4px;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1);
+    width: 100%;
+    height: 100%;
+}
+
+.experience {
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-item{
+    margin-top: 2rem;
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    border: solid cyan 1px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.experience .tittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.experience .subtittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: gainsboro;
+}
+.experience svg{
+    filter: grayscale(0) contrast(0) brightness(10);
+    margin-top: 0.5rem;
+}
+
+.education{
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-item{
+    margin-top: 2rem;
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    border: solid cyan 1px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.education .tittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.education .subtittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: gainsboro;
+}
+.education-item img{
+    filter: grayscale(0) contrast(0) brightness(10);
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: auto;
+}
+
+.skills {
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+}
+.skills-item {
+    margin-top: 2rem;
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    border: solid cyan 1px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.skills-item .right{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+.skills-item .right svg{
+    margin-left: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+main {
+    margin-top: 2rem;
+    padding: 5rem 8rem 0rem;
+}
+
+section {
+    margin: 5rem auto 0rem;
+    padding: 6rem 0rem;
+    max-width: 70rem;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+}
+
+h1 {
+    font-size: large;
+    color: cyan;
+}
+
+h2,
+h3 {
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+
+h3 {
+    color: gray;
+}
+
+h4 {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+}
+
+h4::after {
+    width: 200px;
+    content: "";
+    display: block;
+    position: relative;
+    height: 1px;
+    margin-left: 1.5rem;
+    background-color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 5rem;
+    padding: 1rem;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+@media (max-width:1080px) {
+
+    .social {
+        left: 20px;
+        right: auto;
+    }
+
+    .mail {
+        left: auto;
+        right: 20px;
+    }
+
+    main {
+        padding: 2rem 6rem 0rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .social,
+    .mail {
+        display: none;
+    }
+
+    main {
+        padding: 0rem 2rem;
+    }
+
+
+    .inner {
+        display: block;
+    }
+
+    .about_img {
+        margin: 2rem auto 2rem;
+        width: 70%;
+    }
+
+    .experience-item{
+        display: block;
+    }
+
+    .experience-item .right{
+        margin-top: 2rem;
+    }
+
+    .education-item{
+        display: block;
+    }
+    .education-item .right{
+        margin-top: 2rem;
+    }
+
+    .skills-item{
+        display: block;
+    }
+    .skills-item .right{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-item svg{
+        margin-top: 2rem;
+    }
+
+    .social-footer {
+        display: block;
+        width: 100%;
+        max-width: 270px;
+        margin: 0px auto 2rem;
+        color: whitesmoke;
+    }
+
+    .social-footer ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+    section{
+        margin-top: 2rem;
+    }
+
+}
+
+/* Animation*/
+
+.slide-top{
+    animation-name: fadeTop;
+    animation-duration: 1.5s;
+}
+
+.scrolled.slide-left{
+    animation-name: fadeLeft;
+    animation-duration: 1.5s;
+}
+
+.scrolled.slide-right{
+    animation-name: fadeRight;
+    animation-duration: 1.5s;
+}
+
+.js-scroll{
+    opacity: 0;
+}
+.js-scroll.scrolled{
+    opacity: 1;
+}
+
+
+@keyframes fadeTop{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+
+}
+@keyframes fadeLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+
+}
+@keyframes fadeRight{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+
+}
